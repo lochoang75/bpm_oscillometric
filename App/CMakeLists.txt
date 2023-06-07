@@ -1,0 +1,3 @@
+set(application_SOURCES main.c)
+add_executable(oscillometric_test application_SOURCES)
+target_link_libraries(oscillometric_test bpm_oscillometric)

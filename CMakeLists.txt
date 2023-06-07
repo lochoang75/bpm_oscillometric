@@ -1,0 +1,3 @@
+cmake_minimum_required(VERSION 3.10)
+project(bpm_oscillometric_test)
+add_subdirectory(Oscillometric_BPM)
