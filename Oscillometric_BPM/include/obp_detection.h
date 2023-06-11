@@ -27,6 +27,7 @@ double OBP_get_average_heart_rate(const OBPDetection_t *instance);
 double OBP_get_MAP(const OBPDetection_t *instance);
 double OBP_get_SBP(const OBPDetection_t *instance);
 double OBP_get_DBP(const OBPDetection_t *instance);
+bool OBP_is_enough_data(const OBPDetection_t *instance);
 
 /* Object reset */
 void OBP_reset_instance(OBPDetection_t *instance);
